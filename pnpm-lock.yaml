@@ -13,7 +13,7 @@ importers:
         version: 39.194.1(encoding@0.1.13)(typanion@3.14.0)
     devDependencies:
       husky:
-        specifier: ^9.1.7
+        specifier: 9.1.7
         version: 9.1.7
 
 packages:
