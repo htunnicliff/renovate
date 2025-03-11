@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "validate": "renovate-config-validator --strict default.json library.json",
+    "validate": "renovate-config-validator --strict default.json library.json renovate.json",
     "prepare": "husky"
   },
   "dependencies": {
