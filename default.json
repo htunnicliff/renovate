@@ -1,0 +1,16 @@
+{
+	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
+	"extends": ["config:best-practices"],
+	"addLabels": ["renovate"],
+	"prConcurrentLimit": 0,
+	"timezone": "America/Los_Angeles",
+	"osvVulnerabilityAlerts": true,
+	"packageRules": [
+		{
+			"description": "Automerge non-major dev dependencies",
+			"matchDepTypes": ["devDependencies"],
+			"matchUpdateTypes": ["minor", "patch", "pin"],
+			"automerge": true
+		}
+	]
+}
