@@ -10,7 +10,7 @@ importers:
     dependencies:
       renovate:
         specifier: ^39.194.1
-        version: 39.222.1(encoding@0.1.13)(typanion@3.14.0)
+        version: 39.227.1(encoding@0.1.13)(typanion@3.14.0)
     devDependencies:
       husky:
         specifier: 9.1.7
@@ -842,8 +842,8 @@ packages:
   '@types/cacheable-request@6.0.3':
     resolution: {integrity: sha512-IQ3EbTzGxIigb1I3qPZc1rWJnH0BmSKv5QYTalEwweFvyBDLSAe24zP0le/hyi7ecGfZVlIVAg4BZqb8WBwKqw==}
 
-  '@types/emscripten@1.40.0':
-    resolution: {integrity: sha512-MD2JJ25S4tnjnhjWyalMS6K6p0h+zQV6+Ylm+aGbiS8tSn/aHLSGNzBgduj6FB4zH0ax2GRMGYi/8G1uOxhXWA==}
+  '@types/emscripten@1.40.1':
+    resolution: {integrity: sha512-sr53lnYkQNhjHNN0oJDdUm5564biioI5DuOpycufDVK7D3y+GR3oUswe2rlwY1nPNyusHbrJ9WoTyIHl4/Bpwg==}
 
   '@types/http-cache-semantics@4.0.4':
     resolution: {integrity: sha512-1m0bIFVc7eJWyve9S0RnuRgcQqF/Xd5QsUZAZeQFr1Q3/p9JWoQQEqmVy+DPTNpGXwhgIetAoYF8JSc33q29QA==}
@@ -2383,8 +2383,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@39.222.1:
-    resolution: {integrity: sha512-M7GPNY6XWQ7wg7KCC3tkPu7G/Q3nipMm2knzC+2/qzZWC54UEutRo6KOmsRLn/Qp4ksvir8oPhOPgsxRIEmkrA==}
+  renovate@39.227.1:
+    resolution: {integrity: sha512-vGoT3tZw6kaUyHKEUMt6zNvvsbI1AiIrGeHSGH6AlkYYs9UQpOM4j1uGRLkIRIXujErS9Lvw1IKBmYs1aE6PZg==}
     engines: {node: ^20.15.1 || ^22.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -4667,7 +4667,7 @@ snapshots:
       '@types/node': 22.13.14
       '@types/responselike': 1.0.3
 
-  '@types/emscripten@1.40.0': {}
+  '@types/emscripten@1.40.1': {}
 
   '@types/http-cache-semantics@4.0.4': {}
 
@@ -4747,7 +4747,7 @@ snapshots:
 
   '@yarnpkg/libzip@3.1.1(@yarnpkg/fslib@3.1.2)':
     dependencies:
-      '@types/emscripten': 1.40.0
+      '@types/emscripten': 1.40.1
       '@yarnpkg/fslib': 3.1.2
       tslib: 2.8.1
 
@@ -6366,7 +6366,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@39.222.1(encoding@0.1.13)(typanion@3.14.0):
+  renovate@39.227.1(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.738.0
       '@aws-sdk/client-ec2': 3.738.0
