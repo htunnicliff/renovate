@@ -10,7 +10,7 @@ importers:
     dependencies:
       renovate:
         specifier: ^40.0.0
-        version: 40.7.0(encoding@0.1.13)(typanion@3.14.0)
+        version: 40.8.1(encoding@0.1.13)(typanion@3.14.0)
     devDependencies:
       husky:
         specifier: 9.1.7
@@ -827,8 +827,8 @@ packages:
   '@types/moo@0.5.5':
     resolution: {integrity: sha512-eXQpwnkI4Ntw5uJg6i2PINdRFWLr55dqjuYQaLHNjvqTzF14QdNWbCbml9sza0byyXNA0hZlHtcdN+VNDcgVHA==}
 
-  '@types/node@22.15.14':
-    resolution: {integrity: sha512-BL1eyu/XWsFGTtDWOYULQEs4KR0qdtYfCxYAUYRoB7JP7h9ETYLgQTww6kH8Sj2C0pFGgrpM0XKv6/kbIzYJ1g==}
+  '@types/node@22.15.15':
+    resolution: {integrity: sha512-R5muMcZob3/Jjchn5LcO8jdKwSCbzqmPB6ruBxMcf9kbxtniZHP327s6C37iOfuw8mbKK3cAQa7sEl7afLrQ8A==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -1792,8 +1792,8 @@ packages:
   jsonfile@6.1.0:
     resolution: {integrity: sha512-5dgndWOriYSm5cnYaJNhalLNDKOqFwyDB/rr1E9ZsGciGvKPs8R2xYGCacuf3z6K1YKDz182fd+fY3cn3pMqXQ==}
 
-  jwa@2.0.0:
-    resolution: {integrity: sha512-jrZ2Qx916EA+fq9cEAeCROWPTfCwi1IVHqT2tapuqLEVVDKFDENFw1oL+MwrTvH6msKxsd1YTDVw6uKEcsrLEA==}
+  jwa@2.0.1:
+    resolution: {integrity: sha512-hRF04fqJIP8Abbkq5NKGN0Bbr3JxlQ+qhZufXVr0DvujKy93ZCbXZMHDL4EOtodSbCWxOqR8MS1tXA5hwqCXDg==}
 
   jws@4.0.0:
     resolution: {integrity: sha512-KDncfTmOZoOMTFG4mBlG0qUIOlc03fmzH+ru6RgYVZhPkyiy/92Owlt/8UEN+a4TXR1FQetfIpJE8ApdvdVxTg==}
@@ -2348,8 +2348,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@40.7.0:
-    resolution: {integrity: sha512-mArvZ3yOwY5anqbz0JsyGJh0pUPLkgkojub84HZcYXX7m7HIw/yccRKogBG3oggzyd80Ay3VQ/kVqBlwhbNjlw==}
+  renovate@40.8.1:
+    resolution: {integrity: sha512-USBMsdTqHOi2QkweRsEMzGk9fGIDZb90o5NSXjtcheUMP8ifga95TJzog8ti6tuwkuWGFKkelBXC4fkDNM3dsQ==}
     engines: {node: ^22.13.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -4432,13 +4432,13 @@ snapshots:
 
   '@types/bunyan@1.8.11':
     dependencies:
-      '@types/node': 22.15.14
+      '@types/node': 22.15.15
 
   '@types/cacheable-request@6.0.3':
     dependencies:
       '@types/http-cache-semantics': 4.0.4
       '@types/keyv': 3.1.4
-      '@types/node': 22.15.14
+      '@types/node': 22.15.15
       '@types/responselike': 1.0.3
 
   '@types/emscripten@1.40.1': {}
@@ -4447,7 +4447,7 @@ snapshots:
 
   '@types/keyv@3.1.4':
     dependencies:
-      '@types/node': 22.15.14
+      '@types/node': 22.15.15
 
   '@types/mdast@3.0.15':
     dependencies:
@@ -4457,7 +4457,7 @@ snapshots:
 
   '@types/moo@0.5.5': {}
 
-  '@types/node@22.15.14':
+  '@types/node@22.15.15':
     dependencies:
       undici-types: 6.21.0
 
@@ -4469,7 +4469,7 @@ snapshots:
 
   '@types/responselike@1.0.3':
     dependencies:
-      '@types/node': 22.15.14
+      '@types/node': 22.15.15
 
   '@types/semver@7.7.0': {}
 
@@ -4483,7 +4483,7 @@ snapshots:
 
   '@types/yauzl@2.10.3':
     dependencies:
-      '@types/node': 22.15.14
+      '@types/node': 22.15.15
     optional: true
 
   '@yarnpkg/core@4.4.1(typanion@3.14.0)':
@@ -5491,7 +5491,7 @@ snapshots:
     optionalDependencies:
       graceful-fs: 4.2.11
 
-  jwa@2.0.0:
+  jwa@2.0.1:
     dependencies:
       buffer-equal-constant-time: 1.0.1
       ecdsa-sig-formatter: 1.0.11
@@ -5499,7 +5499,7 @@ snapshots:
 
   jws@4.0.0:
     dependencies:
-      jwa: 2.0.0
+      jwa: 2.0.1
       safe-buffer: 5.2.1
 
   keybase-ecurve@1.0.1:
@@ -6019,7 +6019,7 @@ snapshots:
       '@protobufjs/path': 1.1.2
       '@protobufjs/pool': 1.1.0
       '@protobufjs/utf8': 1.1.0
-      '@types/node': 22.15.14
+      '@types/node': 22.15.15
       long: 5.3.2
 
   protocols@2.0.2: {}
@@ -6134,7 +6134,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@40.7.0(encoding@0.1.13)(typanion@3.14.0):
+  renovate@40.8.1(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.799.0
       '@aws-sdk/client-ec2': 3.800.0
