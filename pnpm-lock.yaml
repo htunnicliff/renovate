@@ -10,7 +10,7 @@ importers:
     dependencies:
       renovate:
         specifier: ^41.0.0
-        version: 41.58.2(encoding@0.1.13)(typanion@3.14.0)
+        version: 41.60.2(encoding@0.1.13)(typanion@3.14.0)
     devDependencies:
       husky:
         specifier: 9.1.7
@@ -837,8 +837,8 @@ packages:
   '@types/ms@2.1.0':
     resolution: {integrity: sha512-GsCCIZDE/p3i96vtEqx+7dBUGXrc7zeSK3wwPHIaRThS+9OhWIXRqzs4d6k1SVU8g91DrNRWxWUGhp5KXQb2VA==}
 
-  '@types/node@24.2.0':
-    resolution: {integrity: sha512-3xyG3pMCq3oYCNg7/ZP+E1ooTaGB4cG8JWRsqqOYQdbWNY4zbaV0Ennrd7stjiJEFZCaybcIgpTjJWHRfBSIDw==}
+  '@types/node@24.2.1':
+    resolution: {integrity: sha512-DRh5K+ka5eJic8CjH7td8QpYEV6Zo10gfRkjHCO3weqZHWDtAaSTFtl4+VMqOJ4N5jcuhZ9/l+yy8rVgw7BQeQ==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -953,8 +953,8 @@ packages:
   aws4@1.13.2:
     resolution: {integrity: sha512-lHe62zvbTB5eEABUVi/AwVh0ZKY9rMMDhmm+eeyuuUQbQ3+J+fONVQOZyj+DdrvD4BY33uYniyRJ4UJIaSKAfw==}
 
-  azure-devops-node-api@15.1.0:
-    resolution: {integrity: sha512-zlZ387CISkSKK1vjBv53kzR5fnzA60SxYrejypZawefZWvrjC28zyM/iKSP5b+iYl+Z7OOlm+Rgl6YsMecK6fg==}
+  azure-devops-node-api@15.1.1:
+    resolution: {integrity: sha512-ohL2CY+zRAItKvwkHhefYxjr0Hndu6s8qKwyl0+wL4Ol6c4UrsI3A3G6ZPwwK81c1Ga3dEXjeDg4aKV4hn9loA==}
     engines: {node: '>= 16.0.0'}
 
   backslash@0.2.0:
@@ -2443,8 +2443,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@41.58.2:
-    resolution: {integrity: sha512-NimwGcLTmprsSYtHJN6Vlem4Hl9z9tPQ/1aCeuzvsHedwqZn68QVkNKs8quQU9JYXMk6gHxC5tKr4hvmnukcXw==}
+  renovate@41.60.2:
+    resolution: {integrity: sha512-aczdYcUEHbhLo3yGYGBb9oCiy4mtZlc2eQwCljXc7f/hWrCndR45sKhiHuih27NYlGLMJrrfK/07/7HVH4wQhw==}
     engines: {node: ^22.13.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -4536,13 +4536,13 @@ snapshots:
 
   '@types/bunyan@1.8.11':
     dependencies:
-      '@types/node': 24.2.0
+      '@types/node': 24.2.1
 
   '@types/cacheable-request@6.0.3':
     dependencies:
       '@types/http-cache-semantics': 4.0.4
       '@types/keyv': 3.1.4
-      '@types/node': 24.2.0
+      '@types/node': 24.2.1
       '@types/responselike': 1.0.3
 
   '@types/debug@4.1.12':
@@ -4555,7 +4555,7 @@ snapshots:
 
   '@types/keyv@3.1.4':
     dependencies:
-      '@types/node': 24.2.0
+      '@types/node': 24.2.1
 
   '@types/mdast@4.0.4':
     dependencies:
@@ -4567,7 +4567,7 @@ snapshots:
 
   '@types/ms@2.1.0': {}
 
-  '@types/node@24.2.0':
+  '@types/node@24.2.1':
     dependencies:
       undici-types: 7.10.0
 
@@ -4579,7 +4579,7 @@ snapshots:
 
   '@types/responselike@1.0.3':
     dependencies:
-      '@types/node': 24.2.0
+      '@types/node': 24.2.1
 
   '@types/semver@7.7.0': {}
 
@@ -4591,7 +4591,7 @@ snapshots:
 
   '@types/yauzl@2.10.3':
     dependencies:
-      '@types/node': 24.2.0
+      '@types/node': 24.2.1
     optional: true
 
   '@yarnpkg/core@4.4.2(typanion@3.14.0)':
@@ -4700,7 +4700,7 @@ snapshots:
 
   aws4@1.13.2: {}
 
-  azure-devops-node-api@15.1.0:
+  azure-devops-node-api@15.1.1:
     dependencies:
       tunnel: 0.0.6
       typed-rest-client: 2.1.0
@@ -6290,7 +6290,7 @@ snapshots:
       '@protobufjs/path': 1.1.2
       '@protobufjs/pool': 1.1.0
       '@protobufjs/utf8': 1.1.0
-      '@types/node': 24.2.0
+      '@types/node': 24.2.1
       long: 5.3.2
 
   protocols@2.0.2: {}
@@ -6414,7 +6414,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@41.58.2(encoding@0.1.13)(typanion@3.14.0):
+  renovate@41.60.2(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.858.0
       '@aws-sdk/client-ec2': 3.858.0
@@ -6454,7 +6454,7 @@ snapshots:
       async-mutex: 0.5.0
       auth-header: 1.0.0
       aws4: 1.13.2
-      azure-devops-node-api: 15.1.0
+      azure-devops-node-api: 15.1.1
       bunyan: 1.8.15
       cacache: 20.0.0
       chalk: 5.4.1
