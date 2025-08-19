@@ -10,7 +10,7 @@ importers:
     dependencies:
       renovate:
         specifier: ^41.0.0
-        version: 41.76.0(encoding@0.1.13)(typanion@3.14.0)
+        version: 41.81.2(encoding@0.1.13)(typanion@3.14.0)
     devDependencies:
       husky:
         specifier: 9.1.7
@@ -918,8 +918,8 @@ packages:
     resolution: {integrity: sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==}
     engines: {node: '>=8'}
 
-  ansi-regex@6.1.0:
-    resolution: {integrity: sha512-7HSX4QQb4CspciLpVFwyRe79O3xsIZDDLER21kERQ71oaPodF8jL725AgJMFAYbooIqolJoRLuM81SpeUkpkvA==}
+  ansi-regex@6.2.0:
+    resolution: {integrity: sha512-TKY5pyBkHyADOPYlRT9Lx6F544mPl0vS5Ew7BJ45hA08Q+t3GjbueLliBWN3sMICk6+y7HdyxSzC4bWS8baBdg==}
     engines: {node: '>=12'}
 
   ansi-styles@4.3.0:
@@ -2445,8 +2445,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@41.76.0:
-    resolution: {integrity: sha512-exIPmfC4c9Gk7StyIBMuoCeGGPG8FaLewdp1WmxZbJDgxZQMdJKiKIo7hmdrgNPAmGVnwmUnsNJlUFQuOUagKg==}
+  renovate@41.81.2:
+    resolution: {integrity: sha512-mb/dwUBg3AKEcoe15X/8wPyARw1xGBhSt4JD/YV2ZNK9WYrU58sDs3NXy+qBqRs6JnlEHiUq4cLotUGtySK4kg==}
     engines: {node: ^22.13.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -4674,7 +4674,7 @@ snapshots:
 
   ansi-regex@5.0.1: {}
 
-  ansi-regex@6.1.0: {}
+  ansi-regex@6.2.0: {}
 
   ansi-styles@4.3.0:
     dependencies:
@@ -6416,7 +6416,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@41.76.0(encoding@0.1.13)(typanion@3.14.0):
+  renovate@41.81.2(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.858.0
       '@aws-sdk/client-ec2': 3.858.0
@@ -6776,7 +6776,7 @@ snapshots:
 
   strip-ansi@7.1.0:
     dependencies:
-      ansi-regex: 6.1.0
+      ansi-regex: 6.2.0
 
   strip-bom@4.0.0: {}
 
