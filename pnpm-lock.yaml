@@ -10,7 +10,7 @@ importers:
     dependencies:
       renovate:
         specifier: ^41.0.0
-        version: 41.84.0(encoding@0.1.13)(typanion@3.14.0)
+        version: 41.86.0(encoding@0.1.13)(typanion@3.14.0)
     devDependencies:
       husky:
         specifier: 9.1.7
@@ -2217,8 +2217,8 @@ packages:
     resolution: {integrity: sha512-dRB78srN/l6gqWulah9SrxeYnxeddIG30+GOqK/9OlLVyLg3HPnr6SqOWTWOXKRwC2eGYCkZ59NNuSgvSrpgOA==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
 
-  node-gyp@11.4.1:
-    resolution: {integrity: sha512-GiVxQ1e4TdZSSVmFDYUn6uUsrEUP68pa8C/xBzCfL/FcLHa4reWrxxTP7tRGhNdviYrNsL5kRolBL5LNYEutCw==}
+  node-gyp@11.4.2:
+    resolution: {integrity: sha512-3gD+6zsrLQH7DyYOUIutaauuXrcyxeTPyQuZQCQoNPZMHMMS5m4y0xclNpvYzoK3VNzuyxT6eF4mkIL4WSZ1eQ==}
     engines: {node: ^18.17.0 || >=20.5.0}
     hasBin: true
 
@@ -2490,8 +2490,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@41.84.0:
-    resolution: {integrity: sha512-cQIm1C1veEQ00F6xUHroGBjlAD6q03rpytVxyOK70+7VMmrR22kD/COOJ08KUpgBHtH3l9P8KPp550ZKtn6wbg==}
+  renovate@41.86.0:
+    resolution: {integrity: sha512-HwK+gRHVrm9mGkyVUct1klspOt8qeOYFz4j9va7RS0EDrYlQDnGACFzFhKs00jacTG2CjrAwChFX9EM/c/DdnQ==}
     engines: {node: ^22.13.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -6254,7 +6254,7 @@ snapshots:
       fetch-blob: 3.2.0
       formdata-polyfill: 4.0.10
 
-  node-gyp@11.4.1:
+  node-gyp@11.4.2:
     dependencies:
       env-paths: 2.2.1
       exponential-backoff: 3.1.2
@@ -6495,7 +6495,7 @@ snapshots:
     dependencies:
       install-artifact-from-github: 1.4.0
       nan: 2.23.0
-      node-gyp: 11.4.1
+      node-gyp: 11.4.2
     transitivePeerDependencies:
       - supports-color
     optional: true
@@ -6592,7 +6592,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@41.84.0(encoding@0.1.13)(typanion@3.14.0):
+  renovate@41.86.0(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.858.0
       '@aws-sdk/client-ec2': 3.858.0
