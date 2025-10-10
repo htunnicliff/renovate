@@ -10,7 +10,7 @@ importers:
     dependencies:
       renovate:
         specifier: ^41.0.0
-        version: 41.143.1(encoding@0.1.13)(typanion@3.14.0)
+        version: 41.144.1(encoding@0.1.13)(typanion@3.14.0)
     devDependencies:
       husky:
         specifier: 9.1.7
@@ -845,8 +845,8 @@ packages:
   '@types/ms@2.1.0':
     resolution: {integrity: sha512-GsCCIZDE/p3i96vtEqx+7dBUGXrc7zeSK3wwPHIaRThS+9OhWIXRqzs4d6k1SVU8g91DrNRWxWUGhp5KXQb2VA==}
 
-  '@types/node@24.7.0':
-    resolution: {integrity: sha512-IbKooQVqUBrlzWTi79E8Fw78l8k1RNtlDDNWsFZs7XonuQSJ8oNYfEeclhprUldXISRMLzBpILuKgPlIxm+/Yw==}
+  '@types/node@24.7.1':
+    resolution: {integrity: sha512-CmyhGZanP88uuC5GpWU9q+fI61j2SkhO3UGMUdfYRE6Bcy0ccyzn1Rqj9YAB/ZY4kOXmNf0ocah5GtphmLMP6Q==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -1141,8 +1141,8 @@ packages:
     engines: {node: '>=6.9.0'}
     hasBin: true
 
-  core-js-pure@3.45.1:
-    resolution: {integrity: sha512-OHnWFKgTUshEU8MK+lOs1H8kC8GkTi9Z1tvNkxrCcw9wl3MJIO7q2ld77wjWn4/xuGrVu2X+nME1iIIPBSdyEQ==}
+  core-js-pure@3.46.0:
+    resolution: {integrity: sha512-NMCW30bHNofuhwLhYPt66OLOKTMbOhgTTatKVbaQC3KRHpTCiRIBYvtshr+NBYSnBxwAFhjW/RfJ0XbIjS16rw==}
 
   core-util-is@1.0.3:
     resolution: {integrity: sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==}
@@ -2500,8 +2500,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@41.143.1:
-    resolution: {integrity: sha512-hJzsJhYdye89n74WhipqYdyuCBqX+kQuti6vRoSS1bEsGgBBZBfX+giRZEpIIo9oReD1pM92snBlu0dMP4mP7A==}
+  renovate@41.144.1:
+    resolution: {integrity: sha512-YlaVqs/qSB2+PTihnJBApoy2ZoZaFgMcsttBul+pDdeT9nkMUcuHwBoK0PZAdWnlA4ZV01VRgCvLUXst4KREMg==}
     engines: {node: ^22.13.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -3834,7 +3834,7 @@ snapshots:
 
   '@babel/runtime-corejs3@7.28.4':
     dependencies:
-      core-js-pure: 3.45.1
+      core-js-pure: 3.46.0
 
   '@baszalmstra/rattler@0.2.1': {}
 
@@ -4590,13 +4590,13 @@ snapshots:
 
   '@types/bunyan@1.8.11':
     dependencies:
-      '@types/node': 24.7.0
+      '@types/node': 24.7.1
 
   '@types/cacheable-request@6.0.3':
     dependencies:
       '@types/http-cache-semantics': 4.0.4
       '@types/keyv': 3.1.4
-      '@types/node': 24.7.0
+      '@types/node': 24.7.1
       '@types/responselike': 1.0.3
 
   '@types/debug@4.1.12':
@@ -4609,7 +4609,7 @@ snapshots:
 
   '@types/keyv@3.1.4':
     dependencies:
-      '@types/node': 24.7.0
+      '@types/node': 24.7.1
 
   '@types/mdast@4.0.4':
     dependencies:
@@ -4621,7 +4621,7 @@ snapshots:
 
   '@types/ms@2.1.0': {}
 
-  '@types/node@24.7.0':
+  '@types/node@24.7.1':
     dependencies:
       undici-types: 7.14.0
 
@@ -4633,7 +4633,7 @@ snapshots:
 
   '@types/responselike@1.0.3':
     dependencies:
-      '@types/node': 24.7.0
+      '@types/node': 24.7.1
 
   '@types/semver@7.7.1': {}
 
@@ -4643,7 +4643,7 @@ snapshots:
 
   '@types/yauzl@2.10.3':
     dependencies:
-      '@types/node': 24.7.0
+      '@types/node': 24.7.1
     optional: true
 
   '@yarnpkg/core@4.4.4(typanion@3.14.0)':
@@ -4956,7 +4956,7 @@ snapshots:
       meow: 7.1.1
       through2-concurrent: 2.0.0
 
-  core-js-pure@3.45.1: {}
+  core-js-pure@3.46.0: {}
 
   core-util-is@1.0.3: {}
 
@@ -6465,7 +6465,7 @@ snapshots:
       '@protobufjs/path': 1.1.2
       '@protobufjs/pool': 1.1.0
       '@protobufjs/utf8': 1.1.0
-      '@types/node': 24.7.0
+      '@types/node': 24.7.1
       long: 5.3.2
 
   protocols@2.0.2: {}
@@ -6600,7 +6600,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@41.143.1(encoding@0.1.13)(typanion@3.14.0):
+  renovate@41.144.1(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.899.0
       '@aws-sdk/client-ec2': 3.899.0
