@@ -4,7 +4,7 @@
     "prepare": "husky"
   },
   "dependencies": {
-    "renovate": "^41.0.0"
+    "renovate": "^42.0.0"
   },
   "devDependencies": {
     "husky": "9.1.7"
