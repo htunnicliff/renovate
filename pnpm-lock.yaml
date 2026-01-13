@@ -10,7 +10,7 @@ importers:
     dependencies:
       renovate:
         specifier: ^42.0.0
-        version: 42.76.4(encoding@0.1.13)(typanion@3.14.0)
+        version: 42.76.5(encoding@0.1.13)(typanion@3.14.0)
     devDependencies:
       husky:
         specifier: 9.1.7
@@ -868,8 +868,8 @@ packages:
   '@types/ms@2.1.0':
     resolution: {integrity: sha512-GsCCIZDE/p3i96vtEqx+7dBUGXrc7zeSK3wwPHIaRThS+9OhWIXRqzs4d6k1SVU8g91DrNRWxWUGhp5KXQb2VA==}
 
-  '@types/node@25.0.7':
-    resolution: {integrity: sha512-C/er7DlIZgRJO7WtTdYovjIFzGsz0I95UlMyR9anTb4aCpBSRWe5Jc1/RvLKUfzmOxHPGjSE5+63HgLtndxU4w==}
+  '@types/node@25.0.8':
+    resolution: {integrity: sha512-powIePYMmC3ibL0UJ2i2s0WIbq6cg6UyVFQxSCpaPxxzAaziRfimGivjdF943sSGV6RADVbk0Nvlm5P/FB44Zg==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -2514,8 +2514,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@42.76.4:
-    resolution: {integrity: sha512-qVFxX9B5NdCAR13EqxausAlV6Ekmn3ooUcBitM9zGN7A25E929gbEzcaZFUfl+CR3XiFJBhzA75aN783sdMPuA==}
+  renovate@42.76.5:
+    resolution: {integrity: sha512-xhucpDAKaA1a3z4Z0Bd5yVWkSZ53t8WQzTMPtxJdrwtXjxpEth68cEMhVGncu0zBHuLiysklK3gKOrz/aVtGhw==}
     engines: {node: ^22.13.0 || ^24.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -4616,13 +4616,13 @@ snapshots:
 
   '@types/bunyan@1.8.11':
     dependencies:
-      '@types/node': 25.0.7
+      '@types/node': 25.0.8
 
   '@types/cacheable-request@6.0.3':
     dependencies:
       '@types/http-cache-semantics': 4.0.4
       '@types/keyv': 3.1.4
-      '@types/node': 25.0.7
+      '@types/node': 25.0.8
       '@types/responselike': 1.0.3
 
   '@types/debug@4.1.12':
@@ -4635,7 +4635,7 @@ snapshots:
 
   '@types/keyv@3.1.4':
     dependencies:
-      '@types/node': 25.0.7
+      '@types/node': 25.0.8
 
   '@types/mdast@4.0.4':
     dependencies:
@@ -4647,7 +4647,7 @@ snapshots:
 
   '@types/ms@2.1.0': {}
 
-  '@types/node@25.0.7':
+  '@types/node@25.0.8':
     dependencies:
       undici-types: 7.16.0
 
@@ -4659,7 +4659,7 @@ snapshots:
 
   '@types/responselike@1.0.3':
     dependencies:
-      '@types/node': 25.0.7
+      '@types/node': 25.0.8
 
   '@types/semver@7.7.1': {}
 
@@ -4669,7 +4669,7 @@ snapshots:
 
   '@types/yauzl@2.10.3':
     dependencies:
-      '@types/node': 25.0.7
+      '@types/node': 25.0.8
     optional: true
 
   '@yarnpkg/core@4.5.0(typanion@3.14.0)':
@@ -6468,7 +6468,7 @@ snapshots:
       '@protobufjs/path': 1.1.2
       '@protobufjs/pool': 1.1.0
       '@protobufjs/utf8': 1.1.0
-      '@types/node': 25.0.7
+      '@types/node': 25.0.8
       long: 5.3.2
 
   protocols@2.0.2: {}
@@ -6600,7 +6600,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@42.76.4(encoding@0.1.13)(typanion@3.14.0):
+  renovate@42.76.5(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.958.0
       '@aws-sdk/client-ec2': 3.958.0
