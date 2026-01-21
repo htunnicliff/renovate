@@ -22,6 +22,10 @@
       "matchDatasources": ["npm"],
       "matchDepTypes": ["dependencies"],
       "automerge": false
+    },
+    {
+      "description": "Oxc",
+      "matchDepNames": ["oxlint", "oxlint-tsgolint"]
     }
   ]
 }
